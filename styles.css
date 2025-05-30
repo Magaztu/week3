@@ -6,9 +6,18 @@
     border-radius: 15px;
     background-color: rgb(29, 44, 103);
     color: rgb(221, 219, 255);
+    z-index: 1;
 }
 /* .main { } */
 .bg {
     background-color: rgb(12, 18, 44);
-    background-image: url(./images/bg-desktop.png);
+    /* background-image: url(./images/bg-desktop.png); */
+}
+.bg-image{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 0;
 }
