@@ -1,5 +1,5 @@
 
-.attribution { font-size: 11px; text-align: center; color:rgb(221, 219, 255); margin-top: 15px; }
+.attribution { font-size: 11px; text-align: center; color:rgb(221, 219, 255); margin-top: 15px; z-index: 2;}
 .attribution a { color: hsl(228, 45%, 44%); }
 
 .box-storage{
@@ -7,10 +7,25 @@
     background-color: rgb(29, 44, 103);
     color: rgb(221, 219, 255);
     z-index: 1;
+    font-family: Raleway;
+    margin-left: 20px;
 }
-/* .main { } */
+.box-menu{
+    border-radius: 15px;
+    background-color: rgb(29, 44, 103);
+    color: rgb(221, 219, 255);
+    z-index: 1;
+}
+.main { 
+    display: flex;
+    align-items: center;
+}
 .bg {
     background-color: rgb(12, 18, 44);
+    place-items: center;
+    position: absolute;
+    top: 350px;
+    
     /* background-image: url(./images/bg-desktop.png); */
 }
 .bg-image{
