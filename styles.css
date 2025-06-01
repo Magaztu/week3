@@ -9,14 +9,30 @@
     z-index: 1;
     font-family: Raleway;
     padding: 35px;
+    height: fit-content;
+    width: 900px;
 }
 .box-text{
     background-color:rgb(255,255,255) ;
+    color: rgb(132, 135, 148);
     font-weight: 700;
-    font-size: larger;
+    font-size: medium;
     border-radius: 10px;
     border-bottom-style: ridge;
-    padding: 10%;
+    padding: 10px 20px;
+    width: 20%;
+}
+.text-number{
+    color: rgb(12, 18, 44);
+    font-size: xx-large;
+}
+.text-storage{
+    font-weight: 700;
+}
+.text-storage-gap{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70%;
 }
 .box-menu{
     border-radius: 15px;
@@ -58,7 +74,7 @@
     place-items: center;
     position: absolute;
     top: 350px;
-    left: 40%;
+    left: 20%;
     
     /* background-image: url(./images/bg-desktop.png); */
 }
