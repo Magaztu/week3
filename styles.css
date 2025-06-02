@@ -44,15 +44,15 @@
     border-top-right-radius: 40%;
 }
 .fylo-lg{
-    width: 73%;
-    height: 73%;
+    width: 200%;
+    height: 200%;
 }
 .box-menu-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     margin-top: 20px;
     place-items: center;
-    gap: 10px;
+    gap: 25px;
 }
 .box-menu-grid img {
     /* padding: 10px; */
@@ -60,6 +60,7 @@
     border: solid;
     background-color: rgb(12, 18, 44);
     color: rgb(12, 18, 44);
+    padding: 25%;
 }
 /* Y si hago un padding y a ese div le hago otro div con un padding? */
 /* No, debe haber una forma mejor con grid, simplemente tomar el espacio del recuadro y colorear el bg */
@@ -73,7 +74,7 @@
     background-color: rgb(12, 18, 44);
     place-items: center;
     position: absolute;
-    top: 350px;
+    top: 250px;
     left: 20%;
     
     /* background-image: url(./images/bg-desktop.png); */
@@ -81,6 +82,7 @@
 .bg-image{
     position: fixed;
     width: 100%;
+    height: 55%;
     bottom: 0px;
     left: 0px;
     right: 0px;
